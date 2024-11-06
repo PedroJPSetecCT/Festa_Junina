@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-image: url(../IMAGENS/17175926606768683790584603840150.jpg);
+    background-color: rgba(219, 101, 22, 0.925);
+    align-items: center;
+    background-repeat: repeat;
+    background-size: 100%;
+}
+header{
+    font-family: "Poetsen One";
+
+}
+main{
+    font-family: "Kanit", sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 180px;
+}
+footer{
+    font-family: "Poetsen One";
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 20px;
+    font-size: 135%;
+
+}
+img{
+    width: 250px;
+    border-radius: 20px;
+}
+.intro{
+    font-size: 140%;
+    background-color: coral;
+    border: solid white;
+    border-radius: 20px;
+    padding: 8px;
+}
+.titulo{
+    font-size: 140%;
+    left: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute ;
+    top: 0px;
+    border-radius: 10px;
+}
+.local{
+    color: rgb(24, 23, 23);
+    background-color: rgb(228, 168, 126);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    width:210px;
+    height: 155px;
+}
+.colunas{
+    font-size: 135%;
+    background-color: coral;
+    border: solid white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 595px;
+    height: 950px;
+    padding: 16px;
+}
+.coluna1{
+    background-color: darkgoldenrod;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: relative;
+    padding: 15px;
+    border-radius: 20px;
+}
+.coluna2{
+    background-color: darkgoldenrod;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 15px;
+    border-radius: 20px;
+}
+#muito{
+    font-size: 180%;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    border: solid silver;
+    top: 1160px;
+    position:absolute;
+}
